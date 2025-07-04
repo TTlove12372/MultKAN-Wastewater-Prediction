@@ -121,7 +121,7 @@ Install TensorFlow (for CUDA 11.7)
 📋 pip install tensorflow==2.11.0
 
 Install Remaining Dependencies
-(请先将上一节的库列表内容保存为一个 requirements.txt 文件)
+
 
 📋 pip install -r requirements.txt
 
@@ -130,7 +130,6 @@ Data Preparation
 Users are required to prepare their own datasets for model training and testing. Please process your dataset into CSV format and place it in the data/ directory so the scripts can read it.
 
 Model Training
-
 Train the MultKAN model:
 
 💻 python train.py --model MultKAN --data_path ./data/your_data.csv --save_path ./models/
@@ -140,7 +139,6 @@ Train a baseline model (e.g., XGBoost):
 💻 python train.py --model XGBoost --data_path ./data/your_data.csv --save_path ./models/
 
 Model Prediction
-
 💻 python predict.py --model_path ./models/MultKAN_best.pth --input_data ./data/new_unseen_data.csv
 
 📝 Citation
@@ -160,3 +158,4 @@ If you use the code or ideas from this project in your research, please cite our
 
 📜 License
 This project is licensed under the MIT License. For details, please see the LICENSE file.
+
