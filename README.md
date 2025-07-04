@@ -1,20 +1,19 @@
-A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction
-
+# --- A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction---
 License: MIT
 
-Description
 
+# --- Description ---
 This repository contains the official source code for the paper "A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction".
 
 This project proposes a novel model named MultKAN for the precise prediction of wastewater quality. The repository includes the complete source code for the MultKAN model, implementations of several baseline models used for comparison (e.g., LSTM, RandomForest, XGBoost), and the detailed experimental workflow.
 
-Dataset
 
+# --- Dataset---
 Important Note: Due to requirements from the wastewater treatment plant and related policies, the original dataset used in this research cannot be made publicly available.
 
 This code repository does not contain any training or testing data. Users are required to prepare their own datasets to run and evaluate the models. To ensure model performance, we recommend a dataset size of over 1000 samples.
 
-Environment Requirements
+# --- Environment Requirements---
 
 The code in this project has been tested on a system with the following configuration. To ensure reproducibility, it is recommended to use a similar or identical hardware and software environment.
 
@@ -70,3 +69,21 @@ conda activate multkan_env
 
 Install TensorFlow (for CUDA 11.7):
 
+# Install Remaining Dependencies:
+pip install -r requirements.txt
+#Citation
+
+If you use the code or ideas from this project in your research, please cite our paper.
+@article{zhao2025multkan,
+  title={A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction},
+  author={Xiao, Yaning and Zhao, Bowei and Zhang, Liang and Zhang, Xiao and Li, Jiuling and Liu, Jiming and Yue, Xiuping},
+  journal={Water Research},
+  year={2025},
+  % The following information will be added after the paper is published
+  % volume={...},
+  % pages={...},
+  % doi={...}
+}
+# License
+
+This project is licensed under the MIT License. For details, please see the LICENSE file.
