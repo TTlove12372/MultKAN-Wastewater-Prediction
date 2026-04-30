@@ -1,6 +1,5 @@
 # A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction
-[![DOI](https://zenodo.org/badge/1013700365.svg)]
-(https://doi.org/10.5281/zenodo.15805768)
+
 
 📝 Description
 This repository contains the official source code for the paper "A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction".
@@ -45,20 +44,6 @@ Install Remaining Dependencies
 
 📋 pip install -r requirements.txt
 
-📝 Citation
-If you use the code or ideas from this project in your research, please cite our paper:
-
-@article{zhao2025multkan,
-
-    title={A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction},
-
-    author={Xiao, Yaning and Zhao, Bowei and Zhang, Liang and Zhang, Xiao and Li, Jiuling and Liu, Jiming and Yue, Xiuping},
-
-    journal={Water Research},
-
-    year={2025},
-
-}
 
 📜 License
 This project is licensed under the MIT License. For details, please see the LICENSE file.
