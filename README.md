@@ -2,8 +2,6 @@
 
 
 📝 Description
-This repository contains the official source code for the paper "A Multi-dimensional Information Restoration Strategy: Synergistic Modeling and Application of MultKAN in Wastewater Quality Prediction".
-
 This project proposes a novel model named MultKAN for the precise prediction of wastewater quality. The repository includes the complete source code for the MultKAN model, implementations of several baseline models used for comparison (e.g., LSTM, RandomForest, XGBoost), and the detailed experimental workflow.
 
 # 📁 Dataset
